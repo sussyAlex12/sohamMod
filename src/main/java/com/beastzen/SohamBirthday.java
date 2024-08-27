@@ -1,5 +1,6 @@
 package com.beastzen;
 
+import com.beastzen.Items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +14,6 @@ public class SohamBirthday implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info(MOD_ID + " loaded");
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerCheck();
 	}
 }
