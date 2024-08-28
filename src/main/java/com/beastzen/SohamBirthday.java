@@ -1,5 +1,6 @@
 package com.beastzen;
 
+import com.beastzen.Blocks.ModBlocks;
 import com.beastzen.Items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class SohamBirthday implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info(MOD_ID + " loaded");
 		ModItems.registerCheck();
+		ModBlocks.registerCheck();
 	}
 }
