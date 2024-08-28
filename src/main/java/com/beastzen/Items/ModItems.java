@@ -11,7 +11,7 @@ import static com.beastzen.SohamBirthday.MOD_ID;
 
 public class ModItems {
     public static final Item TEST_ITEM = registerItems("test_item",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.SOHAM)));
 
     public static SohamBirthday obj = new SohamBirthday();
     public static Item registerItems(String name, Item item){
