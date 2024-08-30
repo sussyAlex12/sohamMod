@@ -9,6 +9,6 @@ import net.minecraft.util.Identifier;
 public class ModItemGroup {
 
     public static final ItemGroup SOHAM = FabricItemGroupBuilder.build(
-            new Identifier(SohamBirthday.MOD_ID, "soham"), () -> new ItemStack(ModItems.TEST_ITEM));
+            new Identifier(SohamBirthday.MOD_ID, "soham"), () -> new ItemStack(ModItems.PURE_PALLADIUM));
 
 }

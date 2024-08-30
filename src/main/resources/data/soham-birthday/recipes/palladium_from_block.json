@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soham-birthday:palladium_block"
+    }
+  ],
+  "result": {
+    "item": "soham-birthday:pure_palladium",
+    "count": 9
+  }
+}

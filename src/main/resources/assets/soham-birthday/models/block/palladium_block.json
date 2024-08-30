@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soham-birthday:block/palladium_block"
+  }
+}
